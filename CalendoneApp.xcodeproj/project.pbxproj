@@ -51,6 +51,12 @@
 		7AB561142B17EC950096444B /* CalendoneApp */ = {
 			isa = PBXGroup;
 			children = (
+				7AB561282B17EEA30096444B /* Extensions */,
+				7AB561272B17EE9D0096444B /* Helpers */,
+				7AB561262B17EE960096444B /* Services */,
+				7AB561252B17EE850096444B /* Viewmodels */,
+				7AB561242B17EE7C0096444B /* Views */,
+				7AB561232B17EE750096444B /* Models */,
 				7AB561152B17EC950096444B /* CalendoneAppApp.swift */,
 				7AB561172B17EC950096444B /* ContentView.swift */,
 				7AB561192B17EC960096444B /* Assets.xcassets */,
@@ -65,6 +71,48 @@
 				7AB5611C2B17EC960096444B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AB561232B17EE750096444B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AB561242B17EE7C0096444B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AB561252B17EE850096444B /* Viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Viewmodels;
+			sourceTree = "<group>";
+		};
+		7AB561262B17EE960096444B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7AB561272B17EE9D0096444B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7AB561282B17EEA30096444B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
