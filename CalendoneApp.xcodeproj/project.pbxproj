@@ -12,6 +12,7 @@
 		7AB5611A2B17EC960096444B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB561192B17EC960096444B /* Assets.xcassets */; };
 		7AB5611D2B17EC960096444B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5611C2B17EC960096444B /* Preview Assets.xcassets */; };
 		7AB5612A2B17EF430096444B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB561292B17EF430096444B /* User.swift */; };
+		7AC017D32B2D0BFF002E7C6D /* Months.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC017D22B2D0BFF002E7C6D /* Months.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7AB561192B17EC960096444B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AB5611C2B17EC960096444B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7AB561292B17EF430096444B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7AC017D22B2D0BFF002E7C6D /* Months.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Months.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,6 @@
 				7AB561242B17EE7C0096444B /* Views */,
 				7AB561232B17EE750096444B /* Models */,
 				7AB561152B17EC950096444B /* CalendoneAppApp.swift */,
-				7AB561172B17EC950096444B /* ContentView.swift */,
 				7AB561192B17EC960096444B /* Assets.xcassets */,
 				7AB5611B2B17EC960096444B /* Preview Content */,
 			);
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				7AB561292B17EF430096444B /* User.swift */,
+				7AC017D22B2D0BFF002E7C6D /* Months.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -86,6 +88,7 @@
 		7AB561242B17EE7C0096444B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7AB561172B17EC950096444B /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC017D32B2D0BFF002E7C6D /* Months.swift in Sources */,
 				7AB561182B17EC950096444B /* ContentView.swift in Sources */,
 				7AB561162B17EC950096444B /* CalendoneAppApp.swift in Sources */,
 				7AB5612A2B17EF430096444B /* User.swift in Sources */,
