@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct LoginView: View {
+    @StateObject var viewModel = LoginViewViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            HeaderView(title: "Calendone", subtitle: "Log In")
+        }
     }
 }
+
 
 #Preview {
     LoginView()
