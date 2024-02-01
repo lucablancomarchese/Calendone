@@ -10,8 +10,10 @@ import SwiftUI
 struct StartView: View {
     var body: some View {
         NavigationView {
-            HeaderView(title: "Calendone", subtitle: "Let's Start!")
+           
+            
         }
+        
     }
 }
 
